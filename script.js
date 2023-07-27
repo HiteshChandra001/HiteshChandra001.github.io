@@ -22,7 +22,7 @@ let resume2 = document.getElementById("resume-button-2").addEventListener("click
 
 function NewTab() {
   window.open(
-    "https://drive.google.com/file/d/19fyX7JM-U9g_JordweVIhkqVx1w7H2RU/view?usp=sharing",
+    "https://drive.google.com/file/d/133SGkPOQ2twFiCXkTuBOTd1f2jZ1-NzU/view?usp=sharing",
     "_blank"
   );
 }
