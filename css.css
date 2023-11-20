@@ -400,7 +400,7 @@ span {
     margin: .3rem 0 1rem;
   }
   .project-layer a {
-    display:inline-block;
+    display:flex;
     justify-content: center;
     align-items: center;
     width: 5rem;
@@ -586,6 +586,17 @@ span {
 
 #github-stats {
   justify-content: center;
+}
+
+.stats{
+  display: flex;
+  justify-content:center;
+}
+
+.stats>a{
+  display: flex;
+  flex-direction: column;  
+  justify-content:center;
 }
 /* ----------------------------------------------------------------- */
 
