@@ -409,7 +409,7 @@ span {
     border-radius: 50%;
   }
   .project-layer a i {
-    font-size: 2rem;
+    font-size: 4rem;
     color: var(--bg-oxford-blue-2);
   }
   .projectlinks {
@@ -517,6 +517,10 @@ span {
   background: var(--);
   background: var(--bg-oxford-blue);
   text-align: center;
+  
+  padding-top: 100px;
+  margin-bottom: 70px;
+  margin-bottom: 4rem;
 }
 
 #contact > div > p {
@@ -578,14 +582,16 @@ span {
 
 /* github */
 #github-stats {
+  padding-top: 100px;
   margin-bottom: 70px;
+  justify-content: center;
 }
 #resume-button-2 {
   list-style: none;
 }
 
-#github-stats {
-  justify-content: center;
+#github-stats h2 {
+  margin-bottom: 4rem;
 }
 
 .stats{
