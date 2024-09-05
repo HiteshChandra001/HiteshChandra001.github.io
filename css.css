@@ -31,7 +31,7 @@ body {
     --bg-wild-blue-yonder: hsla(216, 33%, 68%, 1);
     --bg-carolina-blue: hsla(199, 89%, 49%, 1);
     --bg-prussian-blue: hsla(216, 33%, 20%, 1);
-    --bg-oxford-blue: hsla(222, 44%, 13%, 1);
+    --bg-oxford-blue: rgb(28, 35, 58);
     --bg-oxford-blue-2: hsla(222, 47%, 11%, 1);
     --bg-color: #1f242d;
     --second-bg-color: #323946;
@@ -375,7 +375,7 @@ span {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, .1), var(--bg-prussian-blue) );
+    background: linear-gradient(rgba(0, 0, 0, .7), var(--bg-prussian-blue) );
     display: flex;
     justify-content: center;
     align-items: center;
@@ -414,6 +414,7 @@ span {
   }
   .projectlinks {
     display: flex;
+    gap: 20px;
   }
    
   /*-----------------------------------*\
@@ -492,7 +493,10 @@ span {
   }
   
   .grid-list {
-    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 30px;
     list-style: none;
    
@@ -500,10 +504,11 @@ span {
   
   .skills-card {
     background-color: var(--bg-oxford-blue);
-    border: 1px solid var(--border-prussian-blue);
+    border: 2px solid var(--border-prussian-blue);
   }
   .skills-card-name {
-    color: #7d91b0;
+    font-size: large;
+    color: #cef1fc;
   }
 
 
